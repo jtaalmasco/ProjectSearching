@@ -5,7 +5,29 @@
    ========================================================================== */
 
 
+.data-container{
+    width: 100%;
+    padding: 1em;
+}
 
+
+#table-data1{
+    width: 100%;
+}
+
+#table-data1 tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+#table-data1 tr[visible='true']{
+  display:table-row;
+}
+
+.counter{
+  padding:8px; 
+  color:#ccc;
+}
 
 
 
